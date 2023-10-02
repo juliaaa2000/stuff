@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@media (max-width: 600px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+body{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    text-shadow: 3px;
+    letter-spacing: 2px;
+    background-color: rgb(218, 152, 214);
+    color: #0f141e ;
+    width: 100%;
+}
+.conteiner{ 
+    margin: 10px;}
+
+img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    
+    border-radius: 45%;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+header{
+    margin-left: 40px;
+}
+
+h3{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card{    
+    padding: 10px;
+    margin: 10px; 
+}
+
+.interests{ 
+    background: rgb(182, 248, 182);
+    border-radius: 20%;
+}
+
+.work{
+    height: 230px;
+    background: rgb(243, 240, 52);
+    border-radius: 20%;
+    margin-bottom: 50px;
+}
+
+td, th{
+border: 1px solid grey;
+}
+
+
+/*.contacts{
+    
+    border: double #0e2ee6 6px;
+    padding: 20px;
+    background: rgb(161, 155, 231);
+    border-radius: 20%;
+
+}
+*/
+
+.btn{
+    background: #e242b2;
+    padding: 15px 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+}
+.btn:hover{
+    opacity: 0.8;
+    color: orange;
+}
+a{
+    color: #333;
+    text-decoration:none;
+    /*transition: all.2s;*/
+}
+a:hover{
+    color: orange;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:active{
+    color: rgba(4, 72, 88, 0.795);
+}
+.table{
+    width: 100%;
+}
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.table td:nth-child(1){
+    background: rgb(110, 20, 91);
+    color: white;
+    font-weight: bold;
+}
+.form h3{
+    text-align: center;
+    
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.form-row .form-group{
+    /*display:inline-block;*/
+    margin-right: 20px;
+    width: 50%;
+    /*width: calc(50% - 20px);*/
+    
+}
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+@media (max-width: 600px) {
+    .form-row{
+        display: block;}
+        .form-group{
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
